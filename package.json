@@ -1,6 +1,6 @@
 {
-  "name": "vue-device-detector-js",
-  "version": "1.0.2",
+  "name": "vue3-device-detector",
+  "version": "1.2.1",
   "description": "vue wrapper library for device-detector-js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Xceldeveloper/vue-device-detector-js.git"
+    "url": "git+https://github.com/ali3529/Vue3-Device-Detector.git"
   },
   "keywords": [
     "device",
@@ -23,11 +23,13 @@
   "engines": {
     "node": ">= 8.11.4"
   },
-  "dependencies": {"device-detector-js": "2.2.7"},
-  "author": "xceldeveloper <xceldeveloper@gmail.com> (xceldeveloper.com)",
+  "dependencies": {
+    "device-detector-js": "2.2.7"
+  },
+  "author": "Acorp(ali3529)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Xceldeveloper/vue-device-detector-js/issues"
+    "url": "https://github.com/ali3529/Vue3-Device-Detector"
   },
-  "homepage": "https://github.com/Xceldeveloper/vue-device-detector-js#readme"
+  "homepage": "https://github.com/ali3529/Vue3-Device-Detector"
 }

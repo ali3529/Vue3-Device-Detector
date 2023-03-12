@@ -81,8 +81,8 @@ function devices() {
 }
 
 const device = {
-    install(Vue, options) {
-        Vue.prototype.$device = devices()
+    install(app) {
+        app.provide('device', devices())
     }
 }
 

@@ -80,11 +80,11 @@ function devices() {
 
 }
 
-const device = {
-    install(app) {
-        app.provide('device', devices())
-    }
-}
+// const device = {
+//     install(app) {
+//         app.provide('device', devices())
+//     }
+// }
 
 
-export default device
+export default devices
